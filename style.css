@@ -1,0 +1,23 @@
+/*-----------Universal reset----------*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/*------Temporary Styles------*/
+* {
+    padding: 0.5rem;
+    border: 2px solid rgb(220, 220, 220);
+}
+
+body {
+    border: none;
+}
+
+
+/*------Temporary styles end------*/
