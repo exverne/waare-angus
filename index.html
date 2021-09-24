@@ -11,7 +11,10 @@
         <!--------This is the gridlex stylesheet-------->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
 
-        <!--------This is the google fonts stylesheet. Typeface: Fonts:-------->
+        <!--------This is the google fonts stylesheet. Headings Typeface: Sacramento Heading Fonts: 400; Text Typeface: Text Fonts:-------->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet"> 
 
         <!--------This is the font awesome stylesheet-------->
 
@@ -23,24 +26,28 @@
     <!--------These tags contain all the elements that will create the structure shown on the browser  -->
     <body>
         <!---------This is my header section for all pages-------->
-        <header class="grid">
-            <nav class="col-4 grid-spaceAround">
-                <a href="#" class="col-2">Home</a>
-                <a href="#" class="col-2">About</a>
-                <a href="#" class="col-2">Products</a>
+        <header class="grid-middle padded bg-light">
+            <nav class="col-4 grid-spaceAround text-center bg-light">
+                <a href="#" class="col-2 padded-05">Home</a>
+                <a href="#" class="col-2 padded-05">About</a>
+                <a href="#" class="col-2 padded-05">Products</a>
             </nav>
-            <div class="col-4 logo">Waare Angus</div>
-            <nav class="col-4 grid-spaceAround">
-                <a href="#" class="col-2">Blog</a>
-                <a href="#" class="col-2">Recipes</a>
-                <a href="#" class="col-2">Contact</a>
+            <div class="col-4 bg-light text-center">
+                <h1 class="padded-05">Waarre Angus</h1>
+            </div>
+            <nav class="col-4 grid-spaceAround text-center bg-light">
+                <a href="#" class="col-2 padded-05">Blog</a>
+                <a href="#" class="col-2 padded-05">Recipes</a>
+                <a href="#" class="col-2 padded-05">Contact</a>
             </nav>
         </header>
 
         <!--------Paddock to plate banner-------->
-        <section class="bg-image">
-            <h3>Paddock to plate</h3>
-            <h5>From Waare to you</h5>
+        <section class="bg-image img-sunset grid-middle text-light">
+            <div class="col-12">
+                <h3 class="text-center font-size-4">Paddock to <span class="text-featured">plate</span></h3>
+                <h5 class="text-center font-size-2">From Waarre to you</h5>
+            </div>
         </section>
 
         <!--------This is the 'know your producers' section-------->
