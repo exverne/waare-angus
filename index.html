@@ -11,12 +11,13 @@
         <!--------This is the gridlex stylesheet-------->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
 
-        <!--------This is the google fonts stylesheet. Headings Typeface: Sacramento Heading Fonts: 400; Text Typeface: Text Fonts:-------->
+        <!--------This is the google fonts stylesheet. Headings Typeface: Sacramento Heading Fonts: 400; Text Typeface: 'Source Sans Pro' Text Fonts: 300,400,700 and italic-------->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
 
         <!--------This is the font awesome stylesheet-------->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
         <!--------This is my own stylesheet-------->
         <link href="/style.css" rel="stylesheet">
@@ -26,13 +27,13 @@
     <!--------These tags contain all the elements that will create the structure shown on the browser  -->
     <body>
         <!---------This is my header section for all pages-------->
-        <header class="grid-middle padded bg-light">
+        <header class="grid-middle padded bg-dark">
             <nav class="col-4 grid-spaceAround text-center bg-light">
                 <a href="#" class="col-2 padded-05">Home</a>
                 <a href="#" class="col-2 padded-05">About</a>
                 <a href="#" class="col-2 padded-05">Products</a>
             </nav>
-            <div class="col-4 bg-light text-center">
+            <div class="col-4 bg-dark text-center">
                 <h1 class="padded-05">Waarre Angus</h1>
             </div>
             <nav class="col-4 grid-spaceAround text-center bg-light">
@@ -51,59 +52,59 @@
         </section>
 
         <!--------This is the 'know your producers' section-------->
-        <section>
-            <h2>Know your producers</h2>
-            <div class="grid">
-                <div class="col-3">
-                    <i></i>
-                    <h4>Our Philosophy</h4>
+        <section class="grid-middle padded bg-dark">
+            <h2 class="col-12 padded-sm text-center text-featured font-size-4">Know your producers</h2>
+                <div class="col-3 padded">
+                    <i class="fas fa-comment"></i>
+                    <h4 class="text-featured font-size-2">Our Philosophy</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ipsum temporibus nihil nostrum. Debitis nesciunt, neque repellat laborum optio cum quod libero sit eligendi doloribus, totam atque pariatur reprehenderit illo?</p>
                 </div>
-                <div class="col-3">
-                    <i></i>
-                    <h4>Animal Welfare</h4>
+                <div class="col-3 padded">
+                    <i class="fas fa-hand-holding-heart"></i>
+                    <h4 class="text-featured font-size-2">Animal Welfare</h4>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus quibusdam nihil beatae odit expedita dolorem accusantium placeat perferendis illo soluta modi, error eaque aperiam aliquid animi alias provident laboriosam sapiente!</p>
                 </div>
-                <div class="col-3">
-                    <i></i>
-                    <h4>The Environment</h4>
+                <div class="col-3 padded">
+                    <i class="fab fa-pagelines"></i>
+                    <h4 class="text-featured font-size-2">The Environment</h4>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, adipisci deleniti. Pariatur nisi enim perspiciatis tempora ea sapiente aliquam officiis iste inventore, magnam numquam maiores quidem magni vero, saepe minus.</p>
                 </div>
-                <div class="col-3">
-                    <i></i>
-                    <h4>Down on the farm</h4>
+                <div class="col-3 padded">
+                    <i class="fas fa-tractor"></i>
+                    <h4 class="text-featured font-size-2">Down on the farm</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum repellendus, officiis possimus impedit reiciendis quidem dignissimos. Quae, blanditiis corrupti quod nisi cupiditate atque facilis aut. Nisi laudantium velit placeat ratione?</p>
                 </div>
-            </div>
         </section>
 
         <!--------This is an image banner--------->
-        <section>
-            <h3>Australian Grown</h3>
-            <h5>In southwest Victoria</h5>
+        <section class="bg-image img-right-head grid-middle text-light">
+            <div class="col-12 padded-sm">
+                <h3 class="font-size-4 text-featured">Australian Grown</h3>
+                <h5 class="font-size-2 text-featured">In southwest Victoria</h5>
+            </div>
         </section>
 
         <!--------This is the products cards to link to the products page-------->
-        <section>
-            <h2>Our Products</h2>
-            <div class="grid">
-                <div class="col-3">
-                    <div class="bg-image">
+        <section class="grid padded">
+            <h2 class="col-12 text-center text-featured font-size-4">Our Products</h2>
+            <div class="col-12 grid-spaceAround">
+                <div class="col-2 padded">
+                    <div class="bg-image img-whole">
                         <h4>Whole Product</h4>
                     </div>
                 </div>
-                <div class="col-3">
-                    <div class="bg-image">
+                <div class="col-2">
+                    <div class="bg-image img-side">
                         <h4>Sides and Quarters</h4>
                     </div>
                 </div>
-                <div class="col-3">
-                    <div class="bg-image">
+                <div class="col-2">
+                    <div class="bg-image img-packs">
                         <h4>Packs</h4>
                     </div>
                 </div>
-                <div class="col-3">
-                    <div class="bg-image">
+                <div class="col-2">
+                    <div class="bg-image img-hamper">
                         <h4>Recipe Hampers</h4>
                     </div>
                 </div>

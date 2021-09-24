@@ -18,7 +18,7 @@ img {max-width: 100%;}
 
 body {
     border: none; */
-}
+/* } */
 /*------Temporary styles end------*/
 
 
@@ -95,15 +95,16 @@ body {
 .font-size-4    { font-size: 4rem;}
 .font-size-5    { font-size: 5rem;}
 
+
 body {
-  font-family: "Arial", sans-serif;  /* Add your font here */ 
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 h1 {
     font-family: 'Sacramento', cursive;
     font-size: 4.5rem;
     line-height: 1.4;
-    color: #9b2226;
+    color: #fef9f9;
 }
 
 h2, h3, h4, h5, h6 {
@@ -115,6 +116,12 @@ h2, h3, h4, h5, h6 {
 p {
   line-height: 1.4; 
   margin-bottom: 1rem;
+}
+
+i {
+    color: #9b2226;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
 }
 
 h2:last-child, 
@@ -141,6 +148,36 @@ p:last-child {
     background-position: center; 
     background-repeat: no-repeat;
   }
+/*----Home page image banner 1----*/
+
+.img-sunset {
+    background-image: url('/images/waarre-angus-sunset.jpg');
+    background-position: 30% 40%;
+    min-height: 60vh;
+}
+
+/* australian grown image banner */
+.img-right-head {
+    background-image: url('/images/waarre-angus-right-head.jpg');
+    min-height: 60vh;
+}
+
+/* products images */
+.img-whole {
+    background-image: url('/images/waarre-angus-whole.jpg');
+}
+
+.img-side {
+    background-image: url('/images/waarre-angus-side.jpg');
+}
+
+.img-packs {
+    background-image: url('/images/waarre-angus-packs.jpg');
+}
+
+.img-hamper {
+    background-image: url('/images/waarre-angus-hamper.jpg');
+}
   
   /* Aspect Ratios with percentage unit are only effective if the element (the <div>) is inside a parent container or column, it can't be applied to the column itself. */
   
@@ -160,13 +197,14 @@ p:last-child {
   /* -----Header Styles----- */
 
 header h1 {
-    border: 2px solid #9b2226;
+    border: 4px solid #9b2226;
+    border-radius: 30% 30% 0 0;
 }
 
 header a {
     text-decoration: none;
     color: #9b2226;
-    border: 2px solid #9b2226;
+    /* border: 2px solid #9b2226; */
     display: inline-block;
 }
 
@@ -175,11 +213,5 @@ header a:hover {
     border: 2px solid #001219;
 }
 
-/*----Home page image banner 1----*/
 
-.img-sunset {
-    background-image: url('/images/waarre-angus-sunset.jpg');
-    background-position: 30% 40%;
-    min-height:60vh;
-}
-  
+
