@@ -178,6 +178,12 @@ p:last-child {
 .img-hamper {
     background-image: url('/images/waarre-angus-hamper.jpg');
 }
+
+/* footer image */
+.farmers {
+    background-image: url('/images/waarre-angus-couple.jpg');
+    background-position: 50% 30%;
+}
   
   /* Aspect Ratios with percentage unit are only effective if the element (the <div>) is inside a parent container or column, it can't be applied to the column itself. */
   
@@ -213,5 +219,23 @@ header a:hover {
     border: 2px solid #001219;
 }
 
+footer .logo {
+    border: 3px solid #9b2226;
+    border-radius: 30% 30% 0 0;
+}
+
+footer h3 {
+    font-size: 2rem;
+}
+
+footer a {
+    text-decoration: none;
+    display: block;
+    color: inherit;
+}
+
+footer .social-icon a {
+    display: inline-block;
+}
 
 
