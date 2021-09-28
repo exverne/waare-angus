@@ -6,14 +6,18 @@
     <!--------All the meta data(for SEO) and external stylesheets for website design are located in these tags-------->
     <head>
         <!-------Title page tells SEO your name and provides info in the brower tab-------->
-        <title>Waare Angus About</title>
+        <title>Waare Angus home</title>
 
         <!--------This is the gridlex stylesheet-------->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
 
-        <!--------This is the google fonts stylesheet. Typeface: Fonts:-------->
+        <!--------This is the google fonts stylesheet. Headings Typeface: Sacramento Heading Fonts: 400; Text Typeface: 'Source Sans Pro' Text Fonts: 300,400,700 and italic-------->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
 
         <!--------This is the font awesome stylesheet-------->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
         <!--------This is my own stylesheet-------->
         <link href="/style.css" rel="stylesheet">
@@ -22,18 +26,20 @@
 
     <!--------These tags contain all the elements that will create the structure shown on the browser  -->
     <body>
-        <!---------This is my header section for all pages-------->
-        <header class="grid">
-            <nav class="col-4 grid-spaceAround">
-                <a href="#" class="col-2">Home</a>
-                <a href="#" class="col-2">About</a>
-                <a href="#" class="col-2">Products</a>
+         <!---------This is my header section for all pages-------->
+        <header class="grid-middle padded bg-dark">
+            <nav class="col-4 grid-spaceAround text-center bg-light">
+                <a href="#" class="col-2 padded-05">Home</a>
+                <a href="#" class="col-2 padded-05">About</a>
+                <a href="#" class="col-2 padded-05">Products</a>
             </nav>
-            <div class="col-4 logo">Waare Angus</div>
-            <nav class="col-4 grid-spaceAround">
-                <a href="#" class="col-2">Blog</a>
-                <a href="#" class="col-2">Recipes</a>
-                <a href="#" class="col-2">Contact</a>
+            <div class="col-4 bg-dark text-center">
+                <h1 class="padded-05">Waarre Angus</h1>
+            </div>
+            <nav class="col-4 grid-spaceAround text-center bg-light">
+                <a href="#" class="col-2 padded-05">Blog</a>
+                <a href="#" class="col-2 padded-05">Recipes</a>
+                <a href="#" class="col-2 padded-05">Contact</a>
             </nav>
         </header>
 
@@ -167,26 +173,30 @@
         </section>
 
         <!--------This is the footer section-------->
-        <footer class="grid">
-            <div class="col-3 logo">Logo</div>
-            <nav class="col-6">
-                <h5>Contact Us</h5>
-                <a href="#">Address</a>
-                <a href="tel:#">Phone</a>
-                <a href="mailto:#">Email</a>
-                <nav>
+        <footer class="grid bg-dark padded">
+            <div class="col-8">
+                <div class="col-12 text-center">
+                    <h3 class="text-featured">Waarre Angus</h3>
+                </div>
+                <div class="col-12 text-center">
+                    <nav class="padded-05">
+                        <a href="#">1020 Waarre Road, Waarre</a>
+                        <a href="tel:#">(03) 55624970</a>
+                        <a href="mailto:#">theteam@waarreangus.com.au</a>
+                    </nav>
+                </div>
+            </div>
+            <div class="col-2">
+                <nav class="social-icon text-center">
                     <a href="#">
-                        <i>F</i>
+                        <i class="fab fa-facebook"></i>
                     </a>
                     <a href="#">
-                        <i>I</i>
+                        <i class="fab fa-instagram"></i>
                     </a>
                     <a href="#">
-                        <i>TT</i>
-                    </a>
-                </nav>
-            </nav>
-            <div class="bg-img"></div>
+                        <i class="fab fa-tiktok"></i>
+            </div>
         </footer>
 
 
