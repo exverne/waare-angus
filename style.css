@@ -133,6 +133,14 @@ p:last-child {
 	margin-bottom: 0;
 }
 
+.border-dark {
+    border: 2px solid #001219;
+}
+
+.border-light {
+    border: 2px solid #fef9f9;
+}
+
 /*----images styling-----*/
 .bg-dark { 
     background-color: #001219; 
@@ -179,10 +187,61 @@ p:last-child {
     background-image: url('/images/waarre-angus-hamper.jpg');
 }
 
-/* footer image */
-.farmers {
+.img-cow-silhouette {
+    background-image: url('/images/waarre-angus-cow-silhouette.jpg');
+}
+
+.img-farmers {
     background-image: url('/images/waarre-angus-couple.jpg');
     background-position: 50% 30%;
+}
+
+.img-paddock {
+    background-image: url('/images/waarre-angus-paddock.jpg');
+    min-height: 30vh;
+}
+
+.img-claudia {
+    background-image: url('/images/waarre-angus-claudia.jpg');
+    padding-bottom: 25%;
+}
+
+.img-bush-kangaroo {
+    background-image: url('/images/waarre-angus-bush-kangaroo.jpg'); 
+    padding-bottom: 25%;
+}
+
+.img-herd {
+    background-image: url('/images/waarre-angus-herd.jpg');
+    padding-bottom: 25%;
+}
+
+.img-recipe-hamper {
+    background-image: url('/images/waarre-angus-hamper.jpg');
+    background-position: 50% 76%;
+    padding-bottom: 25%;
+}
+
+.img-bolognaise {
+    background-image: url('/images/waarre-angus-bolognaise.jpg');
+    padding-bottom: 25%;
+}
+
+.img-pho {
+    background-image: url('/images/waarre-angus-pho.jpg');
+    padding-bottom: 25%;
+}
+
+.img-littlejack {
+    background-image: url('/images/waarre-angus-littlejack.jpg');
+    background-position: 50% 30%;
+    padding-bottom: 25%;
+}
+
+.img-delivery {
+    background-image: url('/images/waarre-angus-delivery.jpg');
+    padding-bottom: 25%;
+    background-position: 50% 90%;
 }
   
   /* Aspect Ratios with percentage unit are only effective if the element (the <div>) is inside a parent container or column, it can't be applied to the column itself. */
@@ -219,7 +278,26 @@ header a:hover {
     border: 2px solid #001219;
 }
 
+/*-----Latest News section on about page-----*/
+.latest-news a {
+    color: #9b2226;
+    text-decoration: none;
+}
 
+.latest-news a:hover {
+    border-bottom: 1px solid #9b2226;
+}
+
+.latest-news h3 {
+    color: #9b2226;
+    font-size: 2rem;
+}
+
+.latest-news p {
+    margin-bottom: 1.5rem;
+}
+
+/*-----Footer styles-----*/
 footer h3 {
     font-size: 5rem;
     margin-bottom: 1.5rem;
