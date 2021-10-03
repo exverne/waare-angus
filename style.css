@@ -94,7 +94,18 @@ body {
 .font-size-3    { font-size: 3rem;}
 .font-size-4    { font-size: 4rem;}
 .font-size-5    { font-size: 5rem;}
+.font-size-6    { font-size: 5.5rem;}
 
+.small-text     { font-size: 1.4rem;}
+.medium-text    { font-size: 2.2rem;}
+
+.font-weight-light  { font-weight:300;}
+
+.quote-icon     {
+    display: inline-block;
+    font-size: 5rem;
+    line-height: 0.5;
+ }
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
@@ -147,8 +158,8 @@ p:last-child {
     color: white;
   }
   
-.bg-featured { background-color: #9b2226; }
-.bg-light { background-color: #fef9f9; }
+.bg-featured    { background-color: #9b2226; }
+.bg-light       { background-color: #fef9f9; }
   
 .bg-image {
     background-color: grey; /* Fall-back color while images are loading */ 
@@ -242,6 +253,49 @@ p:last-child {
     background-image: url('/images/waarre-angus-delivery.jpg');
     padding-bottom: 25%;
     background-position: 50% 90%;
+}
+
+.img-buffet {
+    background-image: url('/images/waarre-angus-buffet.jpg');
+    /* padding-bottom: 25%; */
+}
+
+.img-carcass {
+    background-image: url('/images/waarre-angus-carcass.jpg');
+    padding-bottom: 105%;
+}
+
+.img-forequarter {
+    background-image: url('/images/waarre-angus-forequarter.jpg');
+}
+
+.img-packs {
+    background-image: url('/images/waarre-angus-packs.jpg');
+}
+
+.img-ribs {
+    background-image: url('/images/waarre-angus-ribs.jpg');
+}
+
+.img-saucesteak {
+    background-image: url('/images/waarre-angus-saucesteak.jpg');
+}
+
+.img-tacos {
+    background-image: url('/images/waarre-angus-tacos.jpg');
+}
+
+.img-souvlaki {
+    background-image: url('/images/waarre-angus-souvlaki.jpg');
+}
+
+.img-melting {
+    background-image: url('/images/waarre-angus-melting.jpg');
+    min-height: 40vh;
+}
+
+.img-map {
+    background-image: url('/images/waarre-angus-map.png');
 }
   
   /* Aspect Ratios with percentage unit are only effective if the element (the <div>) is inside a parent container or column, it can't be applied to the column itself. */
