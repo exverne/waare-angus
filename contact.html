@@ -28,33 +28,39 @@
     <body>
         <!---------This is my header section for all pages-------->
         <header class="grid-middle padded bg-dark">
-            <nav class="col-4 grid-spaceAround text-center bg-light">
-                <a href="#" class="col-2 padded-05">Home</a>
-                <a href="#" class="col-2 padded-05">About</a>
-                <a href="#" class="col-2 padded-05">Products</a>
+            <nav class="col-4_sm-12 grid-spaceAround text-center bg-light">
+                <a href="/index.html" class="col-2 padded-05">Home</a>
+                <a href="/about.html" class="col-2 padded-05">About</a>
+                <a href="/products.html" class="col-2 padded-05">Products</a>
             </nav>
-            <div class="col-4 bg-dark text-center">
+            <div class="col-4_sm-12 bg-dark text-center">
                 <h1 class="padded-05">Waarre Angus</h1>
             </div>
-            <nav class="col-4 grid-spaceAround text-center bg-light">
-                <a href="#" class="col-2 padded-05">Blog</a>
-                <a href="#" class="col-2 padded-05">Recipes</a>
-                <a href="#" class="col-2 padded-05">Contact</a>
+            <nav class="col-4_sm-12 grid-spaceAround text-center bg-light">
+                <a href="/about.html" class="col-2 padded-05">Blog</a>
+                <a href="/about.html" class="col-2 padded-05">Recipes</a>
+                <a href="/contact.html" class="col-2 padded-05">Contact</a>
             </nav>
         </header>
 
         <!--------Contact Us grid-------->
         <section class="grid padded">
-            <div class="col-6">
+            <div class="col-6_sm-12 padded">
                 <h2 class="medium-text text-featured">Contact Us</h2>
                 <div class="bg-image img-map landscape"></div>
             </div>
-            <div class="col-6">
-                <form>
-                    <input type="text" name="name">
-                    <input type="email" name="_replyto">
-                    <textarea name="message">...</textarea>
-                    <input type="submit" value="send">
+            <div class="col-6_sml-12-middle padded">
+                <form class="grid-center" action="#" method="POST">
+                    <div class="col-6_sm-12">
+                        <input type="text" name="name" placeholder="Your Name">
+                    </div>
+                    <div class="col-6_sm-12">
+                        <input type="email" name="_replyto" placeholder="Your Email" class="email-signup">
+                    </div>
+                    <div class="col-12">
+                        <textarea name="message" placeholder="Your Message">Your Message</textarea>
+                        <input type="submit" value="Send" class="button">
+                    </div>
                 </form>
             </div>
         </section>
